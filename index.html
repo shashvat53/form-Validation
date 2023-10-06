@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form validation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <form id="box" onsubmit="return validData()">
+        <h1>Login</h1>
+        <input type="text" placeholder="Email Address" id="username" />
+        <span id="usererror"></span>
+        <input type="password" placeholder="Password" id="password" />
+        <span id="passworderror"></span>
+        <button>Submit</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
